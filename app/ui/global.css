@@ -1,5 +1,7 @@
-@tailwind base;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
 @tailwind components;
+@import 'tailwindcss/utilities';
 @tailwind utilities;
 
 input[type='number'] {
@@ -16,3 +18,7 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+
+
+
